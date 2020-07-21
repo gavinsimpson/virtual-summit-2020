@@ -79,7 +79,7 @@ Intuitive & key descriptor of ecosystem state
 .col-6[
 .center[
 ```{r high-resilience}
-knitr::include_graphics(here('resources', 'scheffer-2012-high-resilience.jpg'))
+knitr::include_graphics('./resources/scheffer-2012-high-resilience.jpg')
 ```
 ]
 ]
@@ -87,7 +87,7 @@ knitr::include_graphics(here('resources', 'scheffer-2012-high-resilience.jpg'))
 .col-6[
 .center[
 ```{r low-resilience}
-knitr::include_graphics(here('resources', 'scheffer-2012-low-resilience.jpg'))
+knitr::include_graphics('./resources/scheffer-2012-low-resilience.jpg')
 ```
 ]
 ]
@@ -131,7 +131,7 @@ Moving window approach:
 .col-6[
 .center[
 ```{r moving-window}
-knitr::include_graphics(here('resources', 'dakos-rolling-window-figure-modified.png'))
+knitr::include_graphics('./resources/dakos-rolling-window-figure-modified.png')
 ```
 ]
 .small[Modified from Dakos *et al* (2012) PLOS One]

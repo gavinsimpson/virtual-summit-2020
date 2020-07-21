@@ -17,15 +17,15 @@ theme_set(theme_minimal(base_size = 16, base_family = 'Fira Sans'))
 
 
 ## ----high-resilience----------------------------------------------------------
-knitr::include_graphics(here('resources', 'scheffer-2012-high-resilience.jpg'))
+knitr::include_graphics('./resources/scheffer-2012-high-resilience.jpg')
 
 
 ## ----low-resilience-----------------------------------------------------------
-knitr::include_graphics(here('resources', 'scheffer-2012-low-resilience.jpg'))
+knitr::include_graphics('./resources/scheffer-2012-low-resilience.jpg')
 
 
 ## ----moving-window------------------------------------------------------------
-knitr::include_graphics(here('resources', 'dakos-rolling-window-figure-modified.png'))
+knitr::include_graphics('./resources/dakos-rolling-window-figure-modified.png')
 
 
 ## ----lake-227-pigment-data----------------------------------------------------
