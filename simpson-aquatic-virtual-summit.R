@@ -31,7 +31,7 @@ knitr::include_graphics(here('resources', 'dakos-rolling-window-figure-modified.
 ## ----lake-227-pigment-data----------------------------------------------------
 ## Load data from ~/work/data/ela/lake227
 lake227 <- read_excel('~/work/data/ela/lake227/CONC227.xlsx')
-## Peter higlighted Fuco, Allox, Lutzeax, Pheo_b, Bcarot
+## Peter highlighted Fuco, Allox, Lutzeax, Pheo_b, Bcarot
 vars <- c('YEAR', 'FUCO', 'ALLOX', 'LUTZEAX', 'PHEO_B', 'BCAROT')#, 'ECHINENO', 'MYXO')
 lake227 <- lake227[, vars]
 names(lake227) <- c('Year', 'Fucoxanthin', 'Alloxanthin', 'LuteinZeaxanthin',
